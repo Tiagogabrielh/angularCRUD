@@ -1,0 +1,157 @@
+{
+  "musicas": [
+    {
+      "id": 2,
+      "musica": "Inútil",
+      "compositor": "Ultraje a Rigor",
+      "modelo": "modelo1"
+    },
+    {
+      "musica": "Eu sei",
+      "compositor": "Papas da Língua",
+      "modelo": "modelo2",
+      "id": 11,
+      "favorito": true
+    },
+    {
+      "musica": "Somos quem Podemos Ser",
+      "compositor": "Engenheiro do Hawaii",
+      "modelo": "modelo1",
+      "id": 12,
+      "favorito": true
+    },
+    {
+      "musica": "Marvin",
+      "compositor": "Titãs",
+      "modelo": "modelo1",
+      "id": 13,
+      "favorito": false
+    },
+    {
+      "musica": "Sheena is a punk rocker",
+      "compositor": "Ramones",
+      "modelo": "modelo3",
+      "id": 14,
+      "favorito": false
+    },
+    {
+      "musica": "Nós vamos invadir a sua praia",
+      "compositor": "Ultraje a Rigor",
+      "modelo": "modelo3",
+      "id": 15,
+      "favorito": false
+    },
+    {
+      "musica": "Homem Primata",
+      "compositor": "Titãs",
+      "modelo": "modelo2",
+      "id": 16,
+      "favorito": true
+    },
+    {
+      "musica": "Fifa",
+      "compositor": "Lagum",
+      "modelo": "modelo1",
+      "id": 17,
+      "favorito": false
+    },
+    {
+      "musica": "Mesmo que mude",
+      "compositor": "Bidê ou Balde",
+      "modelo": "modelo2",
+      "id": 18,
+      "favorito": false
+    },
+    {
+      "musica": "Camila Camila",
+      "compositor": "Nenhum de Nós",
+      "modelo": "modelo3",
+      "id": 19,
+      "favorito": false
+    },
+    {
+      "musica": "Vamos ao trabalho",
+      "compositor": "Titãs",
+      "modelo": "modelo1",
+      "id": 20,
+      "favorito": false
+    },
+    {
+      "musica": "Enquanto Houver Sol",
+      "compositor": "Titãs",
+      "modelo": "modelo2",
+      "id": 21,
+      "favorito": false
+    },
+    {
+      "musica": "Me encontra",
+      "compositor": "Charlie Brown Jr.",
+      "modelo": "modelo1",
+      "id": 22,
+      "favorito": false
+    },
+    {
+      "musica": "Memórias",
+      "compositor": "Malta",
+      "modelo": "modelo1",
+      "id": 23,
+      "favorito": true
+    },
+    {
+      "musica": "Run to the Hills",
+      "compositor": "Iron Maiden",
+      "modelo": "modelo2",
+      "id": 24,
+      "favorito": false
+    },
+    {
+      "musica": "Rebelde sem causa",
+      "compositor": "Ultraje a Rigor",
+      "modelo": "modelo2",
+      "id": 25,
+      "favorito": true
+    },
+    {
+      "musica": "Zoraide",
+      "compositor": "Ultraje a Rigor",
+      "modelo": "modelo1",
+      "id": 26,
+      "favorito": true
+    },
+    {
+      "musica": "Teorema",
+      "compositor": "Legião Urbana",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 27
+    },
+    {
+      "musica": "Final da Estrada",
+      "compositor": "Pedra Letícia",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 28
+    },
+    {
+      "musica": "Creuza",
+      "compositor": "Pedra Letícia",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 29
+    },
+    {
+      "musica": "Eu não toco Raul",
+      "compositor": "Pedra Letícia",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 30
+    },
+    {
+      "musica": "Será",
+      "compositor": "Legião Urbana",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 31
+    }
+  ]
+}
