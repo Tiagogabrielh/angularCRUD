@@ -1,0 +1,15 @@
+<div [class]="musica.modelo">
+    <p> {{musica.musica}}</p>
+    <p class="comp"> {{musica.compositor}}</p>
+    <div class="div">
+        <button class="botao" (click)="atualizarFavoritos()">
+            <img src="../../../assets/imagens/icone-favorito-{{ mudarIconeFavorito() }}.png" alt="Ícone Favorito {{ mudarIconeFavorito() }}">
+        </button>
+        <button class="botao" routerLink="/musicas/editarMusica/{{musica.id}}">
+        <img src="../../../assets/imagens/icone-editar.png"  alt="Ícone de editar">
+        </button>
+        <button class="botao" routerLink="/musicas/excluirMusica/{{musica.id}}">
+            <img src="../../../assets/imagens/icone-excluir.png" alt="Ícone de excluir">
+        </button>
+    </div>
+</div>

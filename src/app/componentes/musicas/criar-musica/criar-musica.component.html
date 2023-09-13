@@ -1,0 +1,33 @@
+<section class="secao">
+    
+
+    <form [formGroup]="formulario">
+    <label for="nome">Digite sua música:</label>
+    <input type="textarea" id="nome" class="input" placeholder="Digite sua música" formControlName="musica" autocomplete="off" required />
+    
+    <div class="mensagem__erro" *ngIf="formulario.get('musica')?.errors?.['required']  && formulario.get('musica')?.touched">
+        Preenchimento da música é obrigatório!
+    </div>
+    
+    <label for="compositor">Digite o compositor:</label>
+    <input type="text" id="compositor" class="input" placeholder="Compositor" formControlName="compositor" autocomplete="off"  required /> 
+    
+    <div class="mensagem__erro" *ngIf="formulario.get('compositor')?.errors?.['required'] && formulario.get('compositor')?.touched">
+        Preenchimento do compositor é obrigatório!
+    </div>
+    <div class="mensagem__erro" *ngIf="formulario.get('compositor')?.errors?.['minlength'] && formulario.get('compositor')?.touched">
+        Poucos Caracteres!
+    </div>
+
+    <p for="modelo">Escolha o modelo:</p>
+    <div  id="modelo"  class="ul__modelo" required>
+    <div><input type="radio" formControlName="modelo" name="modelo" value="modelo1"  /> <p class="modelo1"> {{ formulario.get('musica')?.value }} <br> {{ formulario.get('compositor')?.value }} </p> </div>
+    <div><input type="radio" formControlName="modelo" name="modelo" value="modelo2"  /> <p class="modelo2"> {{ formulario.get('musica')?.value }} <br> {{ formulario.get('compositor')?.value }}</p> </div>
+    <div><input type="radio" formControlName="modelo" name="modelo" value="modelo3"  /> <p class="modelo3"> {{ formulario.get('musica')?.value }} <br> {{ formulario.get('compositor')?.value }}</p> </div>
+    </div>
+
+    <input type="button" [disabled]="!formulario.valid"  class="input button"  value="Enviar Música" [ngClass]="habilitarBotao()" (click)="acaoSalva()" />
+    <input type="button" class="input button"  value="Cancelar" (click)="cancelar()" />
+    </form>
+    
+</section>

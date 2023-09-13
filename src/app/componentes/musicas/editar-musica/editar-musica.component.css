@@ -1,0 +1,78 @@
+.secao{
+    display: flex;
+    justify-content: center;
+}    
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    gap:2vw;
+    font-weight: bolder;
+    color: #d8cece;
+    
+}
+
+.input{
+    width:30vw;
+    height:3vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
+
+.button{
+    border-radius: 1vw;
+    width:40vw;
+    text-align:center;
+    margin-bottom: 1vw;
+}
+
+.ul__modelo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.modelo1{
+    height:5vw;
+    background-color: #130f0f;
+    border-radius: 1vw;
+    padding-top: 1vw;
+    text-align: center;
+    margin:0.2vw;
+    font-size: 1vw;
+    
+}
+
+.modelo2{
+    height:5vw;
+    background-color:#3f3232; 
+    border-radius: 1vw;
+    padding-top: 1vw;
+    text-align: center;
+    margin:0.2vw;
+    font-size: 1vw;
+    
+}
+
+.modelo3{
+    height:5vw;
+    background-color:#6e6a6a;
+    border-radius: 1vw;
+    padding-top: 1vw;
+    text-align: center;
+    margin:0.2vw;
+    font-size: 1vw;
+    
+}
+
+.botao__desabilitado{
+    color: rgb(219, 42, 42);
+}
+
+.mensagem__erro{
+    font-size:15px;
+    color: rgb(219, 42, 42);
+
+}

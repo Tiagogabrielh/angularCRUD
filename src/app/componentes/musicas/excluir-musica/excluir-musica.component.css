@@ -1,0 +1,23 @@
+.secao{
+    display:flex;
+    justify-content: center;
+}
+
+.div{
+    width:30vw;
+    padding-top: 3vw;
+    height:50vw;
+    margin:3vw 0vw;
+    text-align: center;
+    font-size:3vw;
+    gap:1vw;
+    color:antiquewhite;
+}
+
+.botao{
+    margin: 1vw;
+    border-radius: 1vw;
+    height:3vw;
+    width:10vw;
+    font-size:2vw;
+}

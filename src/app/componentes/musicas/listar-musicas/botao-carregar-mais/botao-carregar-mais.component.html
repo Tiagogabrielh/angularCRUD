@@ -1,0 +1,7 @@
+<div class="center" *ngIf="haMaisMusicas; else semMaisMusicas">
+    <button class="botao carregar-mais">Carregar mais</button>
+</div>
+
+<ng-template #semMaisMusicas>
+    <p class="mensagem">Não há mais músicas</p>
+</ng-template>

@@ -1,0 +1,31 @@
+<section>
+    <header>
+       <h2 class="titulo">{{ titulo }}</h2>
+       <div class="buscar__musicas">
+        <input type="search" class="filtro" placeholder="O que você procura?" autofocus [(ngModel)]="filtro"
+        (keyup)="pesquisarMusicas()">
+        <img src="/assets/imagens/iconepesquisa.png" class="lupa" alt="Lupa">
+        </div>
+        <div class="buttons">
+            <button class="button" routerLink="/criarMusica">Adicionar Música</button>
+            <button class="button" (click)="recarregarComponente()">Meu Álbum</button>
+            <button class="button" (click)="listarFavoritos()">Meus Favoritos</button>
+            
+        </div>
+    </header>
+    <section class="album"> 
+    <div class="album__div" *ngIf="listaMusicas.length > 0, else semMusicas">
+        <div  *ngFor="let musica of listaMusicas">
+            <app-musica [musica]="musica" [listaFavoritos]="listaFavoritos"></app-musica>
+        </div>
+
+    </div>
+    </section>
+    <app-botao-carregar-mais class="carregar" [haMaisMusicas]="haMaisMusicas" (click)="carregarMaisMusicas()" ></app-botao-carregar-mais>
+</section>
+
+<ng-template #semMusicas>
+    <div class="sem__musica">
+        <p class="sem">Sem Músicas cadastradas</p>
+    </div>
+</ng-template>
